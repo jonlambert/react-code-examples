@@ -1,0 +1,1 @@
+export const instantiate = <T extends {new(): any} & any>(Class: T) => new Class();
