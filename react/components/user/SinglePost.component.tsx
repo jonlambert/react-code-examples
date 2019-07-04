@@ -7,12 +7,12 @@ const wrapperStyles = css`
   /* .... */
 `;
 
-interface PostProps {
+interface SinglePostProps {
   title: string;
   body: string;
 }
 
-export const Post = (props: PostProps) => {
+export const SinglePost = (props: SinglePostProps) => {
   return (
     <div className={wrapperStyles}>
       <h1>{props.title}</h1>
