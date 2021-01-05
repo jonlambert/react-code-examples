@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^6.4.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.0.0",
     "dotfile": "0.0.2",
     "emotion": "^10.0.14",
